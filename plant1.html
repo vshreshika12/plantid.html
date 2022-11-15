@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Plant identification app</title>
+ <base href="/">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="keywords" content="plant, flower, identification, recognition, plant name, 
+app, application, id, identifier, plant identification, plant identifier, plant id">
+ <meta name="description" content="Take a photo, upload it, let us identify it with our 
+'magic' and view the results instantly. For free!">
+ <link href="C:\Users\RUDRA\Desktop\cas.css" rel="stylesheet" type="text/css">
+ <style>
+ #loading-page .loader-container {
+ margin: 100px auto;
+ text-align: center;
+ }
+ #loading-page .loader {
+ border: 1px solid rgba(73, 255, 86, 0.23);
+ border-top: 2px solid #1b5e20;
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ margin: auto;
+ animation: spin 1.4s linear infinite;
+ }
+ #loading-page .loader-container span {
+ margin: 20px;
+ display: block;
+ }
+ @keyframes spin {
+ 0% { transform: rotate(0deg); }
+ 100% { transform: rotate(360deg); }
+ }
+ </style>
+ <meta property="og:image" content="assets/plantidcard.png"/>
+ <!-- Google Tag Manager -->
+ <script>(function(w,d,s,l,i){w[l]=w[l]||[];
+ w[l].push({
+ 'gtm.start':new Date().getTime(),event:'gtm.js'});
+ var 
+f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+ j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+ f.parentNode.insertBefore(j,f);
+ })
+ (window,document,'script','dataLayer','GTM-WJF2WZ4');
+ </script>
+ <!-- End Google Tag Manager -->
+ <link rel="manifest" href="manifest.webmanifest">
+ <meta name="theme-color" content="#1b5e20">
+ <link rel="stylesheet" href="C:\Users\RUDRA\Desktop\stats.css"></head>
+ <body>
+ <!-- Google Tag Manager (noscript) -->
+ <noscript>
+ <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJF2WZ4"
+ height="0" width="0" style="display:none;visibility:hidden">
+ </iframe></noscript>
+ <!-- End Google Tag Manager (noscript) -->
+ <app-root></app-root>
+ <div id="loading-page" style="text-align: center">
+ <div style="height: 200px"></div>
+ <img src="/assets/logo.large.png" alt=""/>
+ <div class="loader-container">
+ <div class="loader"></div>
+ </div>
+ </div>
+</body>
+</html>
